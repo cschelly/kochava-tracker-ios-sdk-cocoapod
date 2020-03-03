@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KochavaTracker'
   s.module_name      = 'KochavaTracker'
-  s.version          = '3.14.2'
+  s.version          = '3.14.3'
   s.summary          = 'The KochavaTracker iOS SDK.  Kochava is a leading mobile attribution and analytics platform.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,9 @@ DESC
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KochavaTrackeriOS/Classes/**/*'
-  
+  s.module_map = 'KochavaTrackeriOS/Modules/module.modulemap'
+  s.preserve_paths = 'KochavaTrackeriOS/Modules/module.modulemap'
+
   # s.resource_bundles = {
   #   'KochavaTrackeriOS' => ['KochavaTrackeriOS/Assets/*.png']
   # }
