@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KochavaTracker'
   s.module_name      = 'KochavaTracker'
-  s.version          = '3.14.1'
+  s.version          = '3.14.2'
   s.summary          = 'The KochavaTracker iOS SDK.  Kochava is a leading mobile attribution and analytics platform.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ DESC
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author       = { 'Kochava' => 'support@kochava.com' }
-  s.source           = { :git => 'https://github.com/Kochava/kochava-tracker-ios-sdk-cocoapod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cschelly/kochava-tracker-ios-sdk-cocoapod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
